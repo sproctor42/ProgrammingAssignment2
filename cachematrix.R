@@ -3,10 +3,15 @@
 ## the inverse of the matrix as opposed to computing it repeatedly. 
 
 ## The makeCacheMatrix function creates a special "matrix" object that can
-## cache its inverse.
+## cache its inverse. It is a function that will store a list of functions.
+## It will store these functions:
+## set_matrix() : set the value of the matrix
+## get_matrix() : get the value of the matrix
+## set_inverse() : set the value of the inverse of the matrix
+## get_inverse() : get the value of the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
-
+    
 }
 
 
